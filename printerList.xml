@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE PRINTER
+	[
+		<!ELEMENT PRINTER (NAME, MODEL, DEPARTMENT, IPV4, MAC, SERIAL, INVENTARY)>
+		<!ELEMENT NAME (#PCDATA)>
+		<!ELEMENT MODEL (#PCDATA)>
+		<!ELEMENT DEPARTMENT (#PCDATA)>
+		<!ELEMENT IPV4 (#PCDATA)>
+		<!ELEMENT MAC (#PCDATA)>
+		<!ELEMENT SERIAL (#PCDATA)>
+		<!ELEMENT INVENTARY (#PCDATA)>
+	]
+>
+<!--File name: printerList.xml -->
+<data>
+ <printer number="1">
+    <NAME>Hello</NAME>
+	<MODEL>HP LaserJet 4350</MODEL>
+    <DEPARTMENT>Dear </DEPARTMENT>
+    <IPV4>192.168.176.53</IPV4>
+	<MAC>00:1E:0B:14:DF:D0</MAC>
+	<SERIAL>CNHXS51910</SERIAL>
+	<INVENTARY>450</INVENTARY>
+ </printer>
+</data>         
